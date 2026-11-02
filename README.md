@@ -138,7 +138,7 @@ Claude Code 會自己挑角色，你也可以直接說「用 organizer 整理一
    - Mac：點兩下那個檔案。
 3. 把解壓出來的資料夾改名成 `my-hq`（或任何你喜歡的名字），放在你找得到的地方，例如「文件」裡面。
 
-> 會用 git 的人：`git clone https://github.com/dustynotesai/llm-wiki-starter.git my-hq`
+> 會用 git 的人：`git clone https://github.com/dustynotesai/ai-workflow-template.git my-hq`
 
 ### 2 · 把你的檔案放進 `raw/`（2 分鐘）
 
