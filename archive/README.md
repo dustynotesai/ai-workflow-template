@@ -1,7 +1,7 @@
 # archive：做完的事
 
-做完或不做了的專案，把整個資料夾從 `projects/` 搬來這裡，例如 `archive/我的IG/`。
+做完或不做了的專案，把整個資料夾從 `projects/` 搬來這裡，例如 `archive/new-fridge/`。
 
 - 搬之前 AI 要先問你。
-- 搬完要改 `AGENTS.md` 的地圖：那一行的「在哪」改成 `archive/…`，一句話後面加「（做完）」。專案頁（`wiki/projects/`）留著，狀態改「做完」。
-- 筆記（`wiki/`）、原始檔（`raw/`）、教訓（`wiki/lessons/`）不用搬：別的專案還在用。在旅行學到的習慣，下一趟旅行也用得到。
+- 搬完改專案頁（`knowledge/wiki/projects/`）：「在哪」改成 `archive/…`，狀態改「做完」；目錄 `knowledge/wiki/index.md` 那一行的狀態也改。專案頁留著，之後還查得到。
+- 原始檔（`knowledge/raw/`）、筆記、教訓不用搬：別的專案還在用。這件事學到的習慣，下一件事也用得到。

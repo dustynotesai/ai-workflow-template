@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""選用的收尾提醒（Claude Code 的 Stop hook）。怎麼打開：看同一個資料夾的 README.md。
+"""收尾提醒（Claude Code 的 Stop hook，在 .claude/settings.json 打開）。說明：同一個資料夾的 README.md。
 
 這次對話裡資料夾有檔案變了，AI 要停下來之前提醒它一次：跑 capture（下次還要重講嗎？）。
 同一批變動只提醒一次，不會一直跳、不會繞圈。只用 Python 內建的東西，不用 git。
@@ -17,7 +17,7 @@ MARKER = os.path.join(".claude", "hooks", ".capture-state")
 
 REASON = (
     "收尾檢查（capture skill，.claude/skills/capture/SKILL.md）：這次做的事，下次主人還要重講嗎？"
-    "主人糾正過你 → 存原話、寫一條教訓；主人教了怎麼做 → 記進 wiki/做法清單.md；"
+    "主人糾正過你 → 存原話、寫一條教訓；主人教了怎麼做 → 記進 .claude/skills/capture/watchlist.md；"
     "做完一段 → 更新專案頁的「現在做到哪」「下一步」「更新」。都不用就說一句「不用記」再停。"
 )
 
